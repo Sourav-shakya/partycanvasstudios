@@ -5,10 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Party Canvas Studio | Premium Event Decor</title>
 
-    <!-- Google Fonts Framework Integration -->
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@200;300;400;500;600&display=swap" rel="stylesheet">
 
-    <!-- Stylesheet Link -->
     <link rel="stylesheet" href="style.css">
 
     <style>
@@ -113,10 +111,8 @@
 
 <body>
 
-    <!-- NAV -->
     <nav style="box-shadow: 0 10px 40px rgba(0,0,0,0.35);">
         <div class="logo">
-            <!-- Custom Vector Logo Graphic -->
             <svg class="logo-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="filter: drop-shadow(0px 2px 4px rgba(0,0,0,0.5));">
                 <circle cx="50" cy="50" r="45" fill="none" stroke="url(#goldGradient)" stroke-width="1.5"/>
                 <path d="M25 70 L50 25 L75 70 Z" fill="none" stroke="url(#goldGradient)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -135,7 +131,6 @@
         <a class="btn" href="https://wa.me/916304840633" target="_blank" style="letter-spacing: 1.5px; font-weight: 500;">Enquire Now</a>
     </nav>
 
-    <!-- HERO IMAGE TIMELINE SHOWCASE -->
     <section class="hero">
         <div class="hero-content">
             <h1 class="gold-text-gradient" style="font-weight: 600; letter-spacing: 1px; line-height: 1.3;">Crafting Luxury Spaces<br>For Your Finest Celebrations</h1>
@@ -144,7 +139,6 @@
         </div>
     </section>
 
-    <!-- PREMIUM SERVICES SECTION -->
     <section class="section">
         <h2 style="font-family: 'Playfair Display', serif; font-weight: 400; font-size: 38px; letter-spacing: 1px;">Bespoke Services</h2>
         <div class="section-subtitle" style="font-family: 'Montserrat', sans-serif; font-weight: 300; text-transform: uppercase; letter-spacing: 4px; color: #d4af37; font-size: 11px; margin-top: 5px;">What we design for you</div>
@@ -156,12 +150,10 @@
         </div>
     </section>
 
-    <!-- PORTFOLIO ARCHIVE -->
     <section class="section" id="work-gallery" style="background: linear-gradient(to bottom, #0d0b0f 0%, #120f14 50%, #0d0b0f 100%); padding-top: 80px; padding-bottom: 80px;">
         <h2 style="font-family: 'Playfair Display', serif; font-weight: 400; font-size: 38px; letter-spacing: 1px;">Our Design Portfolio</h2>
         <div class="section-subtitle" style="font-family: 'Montserrat', sans-serif; font-weight: 300; text-transform: uppercase; letter-spacing: 4px; color: #d4af37; font-size: 11px; margin-top: 5px;">Glimpses of curated spaces</div>
         
-        <!-- Filter Bar Placed Directly Atop The Photo Grid -->
         <div class="gallery-controls">
             <button class="filter-btn btn-luxury-masterpiece active" data-filter="all">✨ Show All Masterpieces</button>
         </div>
@@ -177,15 +169,23 @@
             <img src="g8.jpeg" alt="Custom Event Styling Layout" data-category="styling">
             <img src="g9.jpeg" alt="Premium Birthday Presentation" data-category="birthday">
             <img src="g10.jpeg" alt="Luxury Wedding Arrangement" data-category="wedding">
+            <img src="1.jpeg" alt="Party Canvas Studio Decoration">
+            <img src="2.jpeg" alt="Party Canvas Studio Decoration">
+            <img src="3.jpeg" alt="Party Canvas Studio Decoration">
+            <img src="4.jpeg" alt="Party Canvas Studio Decoration">
+            <img src="5.jpeg" alt="Party Canvas Studio Decoration">
+            <img src="6.jpeg" alt="Party Canvas Studio Decoration">
+            <img src="7.jpeg" alt="Party Canvas Studio Decoration">
+            <img src="8.png" alt="Party Canvas Studio Decoration">
+            <img src="9.png" alt="Party Canvas Studio Decoration">
+            <img src="10.jpeg" alt="Party Canvas Studio Decoration">
         </div>
     </section>
 
-    <!-- REFINED CONTACT INTERACTION MAP -->
     <section class="contact" style="padding: 90px 20px;">
         <h2 style="font-family: 'Playfair Display', serif; font-weight: 400; font-size: 36px; letter-spacing: 1px;">Begin Your Story</h2>
         <div class="section-subtitle" style="font-family: 'Montserrat', sans-serif; font-weight: 300; text-transform: uppercase; letter-spacing: 4px; color: #d4af37; font-size: 11px; margin-bottom: 40px;">Get in touch with our designers</div>
         
-        <!-- Fully Responsive Tappable Communication Links -->
         <p style="font-weight: 300; letter-spacing: 1px; font-size: 16px; margin: 12px 0;">
             📞 Concierge: <a href="tel:+916304840633" class="contact-link">+91 6304840633</a>
         </p>
@@ -199,20 +199,17 @@
         <a href="https://www.instagram.com/partycanvas_studios" target="_blank" class="instagram-link">Instagram: @partycanvas_studios</a>
     </section>
 
-    <!-- COPYRIGHT REGISTRY -->
     <footer style="letter-spacing: 2px; font-size: 11px; font-weight: 200; color: rgba(255,255,255,0.4); border-top: 1px solid rgba(212,175,55,0.08); padding: 30px 20px;">
         © 2026 Party Canvas Studio | Curating Premium Experiences
     </footer>
 
-    <!-- LIGHTBOX OVERLAY WINDOW -->
     <div class="lightbox" id="lightbox">
-        <span class="lightbox-close" id="lightbox-close">&times;</span>
+        <span class="lightbox-close" id="lightbox-close">×</span>
         <div class="lightbox-wrapper">
             <img class="lightbox-img" id="lightbox-img" src="" alt="Enlarged setup presentation">
         </div>
     </div>
 
-    <!-- CODE ENGINES CONTROL ROUTER -->
     <script>
         const cards = document.querySelectorAll('.card');
         const filterBtns = document.querySelectorAll('.filter-btn');
